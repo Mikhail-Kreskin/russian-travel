@@ -1,0 +1,15 @@
+.page__places {
+  margin: 92px auto 92px auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page__places {
+    margin: 88px auto 90px auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .page__places {
+    margin: 64px auto 66px auto;
+  }
+}
