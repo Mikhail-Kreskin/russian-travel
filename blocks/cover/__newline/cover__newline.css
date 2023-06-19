@@ -1,9 +1,0 @@
-.cover__newline {
-  display: none;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .cover__newline {
-    display: block;
-  }
-}

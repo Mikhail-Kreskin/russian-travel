@@ -1,28 +1,25 @@
-.cover__overlay {
+.cover__titles {
   width: 100%;
   min-height: 740px;
-  background-color: #2a2c2f;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  opacity: 0.3;
+  display: grid;
+  grid-template-rows: min-content min-content;
+  align-content: center;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .cover__overlay {
+  .cover__titles {
     min-height: 640px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .cover__overlay {
+  .cover__titles {
     min-height: 480px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .cover__overlay {
+  .cover__titles {
     min-height: 200px;
   }
 }
